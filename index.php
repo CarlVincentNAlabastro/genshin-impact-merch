@@ -55,13 +55,29 @@
       color: #f6f6f6;
     }
 
-    #carouselExampleCaptions {
+    .carousel-container {
       position: absolute;
       bottom: 20px;
-      left: 250px;
+      left: 180px;
       z-index: 1000;
-      width: 200px;
+      width: 620px;
+      border: 2px solid #FDCC7B;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+    }
+
+    .carousel-container h2 {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #carouselExampleCaptions {
+      width: 80%;
       height: auto;
+      left: 70px;
     }
   </style>
 </head>
@@ -114,56 +130,60 @@
 
   <img src="media/navia3.png" alt="Another Image" class="corner-image">
 
-  <div id="carouselExampleCaptions" class="carousel slide" style="border: 1px solid black; width: 620px"
-    data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="row">
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-1.png" class="d-block w-100" alt="Slide 1">
-            <div class="carousel-caption d-none d-md-block"></div>
+  <div class="carousel-container">
+    <h2>Trending Now</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-1.png" class="d-block w-100" alt="Slide 1">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-2.png" class="d-block w-100" alt="Slide 2">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-3.png" class="d-block w-100" alt="Slide 3">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
           </div>
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-2.png" class="d-block w-100" alt="Slide 2">
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-3.png" class="d-block w-100" alt="Slide 3">
-            <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-4.png" class="d-block w-100" alt="Slide 4">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-5.png" class="d-block w-100" alt="Slide 5">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="col" style="margin-right: 20px;">
+              <img src="media/slide-6.png" class="d-block w-100" alt="Slide 6">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <div class="row">
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-4.png" class="d-block w-100" alt="Slide 4">
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-5.png" class="d-block w-100" alt="Slide 5">
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-          <div class="col" style="margin-right: -20px;">
-            <img src="media/slide-6.png" class="d-block w-100" alt="Slide 6">
-            <div class="carousel-caption d-none d-md-block"></div>
-          </div>
-        </div>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 </body>
 
