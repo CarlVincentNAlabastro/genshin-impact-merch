@@ -97,13 +97,10 @@
               <a class="nav-link m-2" href="about.php">ABOUT</a>
             </li>
             <li class="nav-item m-2">
-              <a class="nav-link" href="#">SHOP</a>
+              <a class="nav-link" href="shop.php">SHOP</a>
             </li>
             <li class="nav-item m-2">
-              <a class="nav-link" href="#">APPS</a>
-            </li>
-            <li class="nav-item m-2">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="contact.php">CONTACT</a>
             </li>
           </ul>
         </div>
