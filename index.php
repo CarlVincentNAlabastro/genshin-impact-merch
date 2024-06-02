@@ -106,10 +106,7 @@
         </div>
         <ul class="navbar-nav" style="margin-right: 20px;">
           <li class="nav-item">
-            <a class="nav-link m-2" href="#">LOG IN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-2" href="#">SIGN UP</a>
+            <a class="nav-link m-2" href="login.php">LOG OUT</a>
           </li>
         </ul>
       </div>
