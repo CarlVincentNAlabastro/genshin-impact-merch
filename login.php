@@ -91,6 +91,11 @@
         .login-box a:hover {
             text-decoration: underline;
         }
+
+        .error-message {
+            color: red;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -104,9 +109,14 @@
         <div class="login-box">
             <img src="media/login-logo.png" alt="Genshin Impact Merchandise Logo">
             <h4>LOG IN</h4>
-            <form>
-                <input type="text" placeholder="Username" required>
-                <input type="password" placeholder="Password" required>
+            <?php
+            if (!empty($error_message)) {
+                echo "<p class='error-message'>$error_message</p>";
+            }
+            ?>
+            <form method="post" action="login-process.php">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
                 <button type="submit">LOG IN</button>
             </form>
             <a href="sign-up.php">SIGN UP</a>
