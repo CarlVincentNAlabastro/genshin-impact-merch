@@ -77,10 +77,10 @@
           <img src="media/logo.png" alt="Avatar Logo" style="width:150px; margin-right: 180px;" class="rounded-full">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active m-2" href="index.php">HOME</a>
+              <a class="nav-link m-2" href="index.php">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link m-2" href="about.php">ABOUT</a>
+              <a class="nav-link active m-2" href="about.php">ABOUT</a>
             </li>
             <li class="nav-item m-2">
               <a class="nav-link" href="shop.php">SHOP</a>

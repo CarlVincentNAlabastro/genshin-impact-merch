@@ -126,7 +126,7 @@
             <img src="media/slide-1.png" alt="Item 1" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Metal Bookmark: Xiao</p>
-                <p class="menu-price">$19.99</p>
+                <p class="menu-price">₱250.00</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -135,7 +135,7 @@
             <img src="media/slide-2.png" alt="Item 2" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Ganyu Folding Fan</p>
-                <p class="menu-price">$24.99</p>
+                <p class="menu-price">₱399.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -144,7 +144,7 @@
             <img src="media/slide-3.png" alt="Item 3" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Characters Key Chains</p>
-                <p class="menu-price">$89.99</p>
+                <p class="menu-price">₱149.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -153,7 +153,7 @@
             <img src="media/slide-4.png" alt="Item 4" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Vision Key Chains</p>
-                <p class="menu-price">$99.99</p>
+                <p class="menu-price">₱149.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -162,7 +162,7 @@
             <img src="media/slide-5.png" alt="Item 5" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Hu Tao Figure</p>
-                <p class="menu-price">$239.99</p>
+                <p class="menu-price">₱2139.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -171,7 +171,7 @@
             <img src="media/slide-6.png" alt="Item 6" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Hilichurl Fleece Hand Warmer</p>
-                <p class="menu-price">$139.99</p>
+                <p class="menu-price">₱599.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -180,7 +180,7 @@
             <img src="media/slide-7.png" alt="Item 7" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Xiao Vigilant Mechanical Keyboard</p>
-                <p class="menu-price">$359.99</p>
+                <p class="menu-price">₱4359.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
@@ -189,7 +189,7 @@
             <img src="media/slide-8.png" alt="Item 8" class="menu-image">
             <div class="menu-description">
                 <p>Genshin Impact Lyney Grin-Malkin Cat Knead Plushie</p>
-                <p class="menu-price">$59.99</p>
+                <p class="menu-price">₱759.99</p>
                 <button class="order-button">Order</button>
             </div>
         </div>
