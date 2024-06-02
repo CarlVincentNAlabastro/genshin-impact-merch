@@ -35,20 +35,20 @@
 
         .login-box {
             background: rgba(25, 20, 12, 0.8);
-            padding: 20px;
+            padding: 15px;
             border-radius: 10px;
             text-align: center;
-            width: 300px;
+            width: 350px;
         }
 
         .login-box img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         .login-box h4 {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: #ddd;
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
@@ -57,15 +57,15 @@
         .login-box input[type="text"],
         .login-box input[type="password"],
         .login-box input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
+            width: 90%;
+            padding: 8px;
+            margin-bottom: 8px;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
 
         .login-box button {
-            width: 100%;
+            width: 90%;
             padding: 10px;
             margin-top: 10px;
             border: none;
