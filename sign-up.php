@@ -105,12 +105,12 @@
         <div class="login-box">
             <img src="media/login-logo.png" alt="Genshin Impact Merchandise Logo">
             <h4>SIGN UP</h4>
-            <form>
-                <input type="text" placeholder="First Name" required>
-                <input type="text" placeholder="Last Name" required>
-                <input type="email" placeholder="Email Address" required>
-                <input type="text" placeholder="Username" required>
-                <input type="password" placeholder="Password" required>
+            <form action="signup-process.php" method="POST">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+                <input type="email" name="email_address" placeholder="Email Address" required>
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
                 <button type="submit">SIGN UP</button>
             </form>
             <a href="login.php">BACK TO LOGIN PAGE</a>
