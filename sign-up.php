@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Login | Genshin Impact Merchandise</title>
+    <title>Sign Up | Genshin Impact Merchandise</title>
     <link rel="icon" href="media/tab-logo.jpg" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +55,8 @@
         }
 
         .login-box input[type="text"],
-        .login-box input[type="password"] {
+        .login-box input[type="password"],
+        .login-box input[type="email"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -103,13 +104,16 @@
     <div class="login-container">
         <div class="login-box">
             <img src="media/login-logo.png" alt="Genshin Impact Merchandise Logo">
-            <h4>LOG IN</h4>
+            <h4>SIGN UP</h4>
             <form>
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="email" placeholder="Email Address" required>
                 <input type="text" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
-                <button type="submit">LOG IN</button>
+                <button type="submit">SIGN UP</button>
             </form>
-            <a href="sign-up.php">SIGN UP</a>
+            <a href="login.php">BACK TO LOGIN PAGE</a>
         </div>
     </div>
 
