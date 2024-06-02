@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body,
         html {
             height: 100%;
             margin: 0;
-            font-family: Tahoma, Helvetica, Arial, sans-serif !important;
+            font-family: 'Roboto', Tahoma, Helvetica, Arial, sans-serif !important;
         }
 
         .bg-video {
@@ -33,16 +34,24 @@
         }
 
         .login-box {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(25, 20, 12, 0.8);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             width: 300px;
         }
 
-        .login-box h2 {
+        .login-box img {
+            max-width: 100%;
+            height: auto;
             margin-bottom: 20px;
-            color: #333;
+        }
+
+        .login-box h4 {
+            margin-bottom: 20px;
+            color: #ddd;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
         }
 
         .login-box input[type="text"],
@@ -73,8 +82,10 @@
         .login-box a {
             display: block;
             margin-top: 10px;
-            color: #333;
+            color: #ddd;
             text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
         }
 
         .login-box a:hover {
@@ -91,14 +102,14 @@
 
     <div class="login-container">
         <div class="login-box">
-            <h2>Genshin Impact Merchandise</h2>
-            <h4>Log in</h4>
+            <img src="media/login-logo.png" alt="Genshin Impact Merchandise Logo">
+            <h4>LOG IN</h4>
             <form>
                 <input type="text" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
-                <button type="submit">Log in</button>
+                <button type="submit">LOG IN</button>
             </form>
-            <a href="#">Sign up</a>
+            <a href="#">SIGN UP</a>
         </div>
     </div>
 
